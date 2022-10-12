@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "trader"
+version = "0.1.0"
+description = "test_version_of_AI_trader_BOT"
+authors = ["Mykhailo  Horbachenko <mykhailo.horbachenko@smartexe.com>"]
+license = "__"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tradingview-ta = "^3.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.isort]
+profile="wemake"
+multi_line_output="2"
+balanced_wrapping="True"
+remove_redundant_aliases="True"
+include_trailing_comma="False"
+line_length = "120"
