@@ -8,3 +8,7 @@ class InvalidIntervalValueError(Exception):
 
 class AccessToInitializeError(Exception):
     """Raise when try to access before initialize data"""
+
+
+class RecommendationError(Exception):
+    """Raise when recommendation does not exist"""

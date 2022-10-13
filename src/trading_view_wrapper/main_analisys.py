@@ -40,7 +40,7 @@ class Analise(TA_Handler):
         while True:
             start_time = datetime.now()
             yield cls.initialized_handler.get_analysis().summary
-            cls.wait(start_time=start_time)
+            # cls.wait(start_time=start_time)
 
     def wait(self, start_time: datetime) -> None:
         expired_time = datetime.now() - start_time
