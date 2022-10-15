@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 tradingview-ta = "^3.3.0"
+web3 = "^5.31.1"
 
 
 [tool.poetry.group.dev.dependencies]
